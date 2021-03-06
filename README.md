@@ -9,3 +9,14 @@ Load and create the shapes from a text file. The first line of the file contains
 shapes, and each following line contain a shape. The first character will identify the type of the
 shape, which is followed by the center coordinate and the side length or radius.
 Manage the shapes uniformly, so derive them from the same super class.
+
+## Common requirements:
+* Use a Collection to store the objects of classes derived from the same super class.
+* Use foreach to process the elements of a Collection.
+* Validate the data what you get from the user; throw Exception for invalid data, and handle
+the thrown Exceptions.
+* The documentation should contain:
+  * the description of the exercise,
+  * the class diagram,
+  * the short description of each methods,
+  * and the testing (white box / black box).
